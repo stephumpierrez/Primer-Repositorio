@@ -11,7 +11,7 @@
     font-size: 20px;
 }
 
-/* MAIN */
+/* MAIN INDEX */
 
 .position {
     margin-top: 112px;
@@ -36,10 +36,37 @@ a {
 
 .marcador {
     width: 90%;
+    object-fit: cover;
 }
 
 .position-2 {
     margin-top: 150px;
+}
+
+/* MAIN PROYECTO */
+
+.p-project {
+    text-align: justify;
+}
+
+.tablet {
+    width: 90%;
+}
+
+.map {
+    width: 90%;
+    height: 900px;
+}
+
+.bg-sky-blue {
+    background-color: #419bcf;
+}
+
+.video {
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    object-fit: cover;
 }
 
 /* FOOTER */
@@ -51,9 +78,19 @@ a {
 
 .footer li {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .footer-link {
     color: rgb(19, 19, 19);
+}
+
+@media screen and (max-width: 800px) {
+    .map {
+        height: 300px;
+    }
+
+    .video {
+        width: 400px;
+    } 
 }
