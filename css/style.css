@@ -69,6 +69,28 @@ a {
     object-fit: cover;
 }
 
+/* MAIN PRODUCTO */
+
+.mockup_tablet {
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-red {
+    background-color: #e90204;
+    color: white;
+}
+
+.packaging {
+    width: 90%;
+    object-fit: cover;
+}
+
+.gifts {
+    width: 70%;
+    object-fit: cover;
+}
+
 /* FOOTER */
 
 .footer {
@@ -85,6 +107,8 @@ a {
     color: rgb(19, 19, 19);
 }
 
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 800px) {
     .map {
         height: 300px;
@@ -92,5 +116,5 @@ a {
 
     .video {
         width: 400px;
-    } 
+    }
 }
