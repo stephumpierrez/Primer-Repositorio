@@ -1,0 +1,22 @@
+/* MAIN PROYECTO */
+
+.p-project {
+    text-align: justify;
+}
+
+.tablet {
+    width: 90%;
+}
+
+.map {
+    width: 90%;
+    height: 900px;
+}
+
+.bg-sky-blue {
+    background-color: $bg-color2;
+}
+
+.video {
+    @include test (50%, 300px, center, cover);
+}

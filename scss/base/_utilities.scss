@@ -1,0 +1,15 @@
+// MIXINS //
+
+@mixin test ($widht, $height, $align, $object) {
+    $width:$widht;
+    $height:$height;
+    $align:$align;
+    $object:$object;
+   }
+
+  // EXTEND //
+
+   .object {
+    width: 90%;
+    object-fit: cover;
+   }

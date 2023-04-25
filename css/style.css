@@ -3,118 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 } */
+.object, .gifts, .bg-red .packaging, .mockup_tablet, .bg-yellow .marcador {
+  width: 90%;
+  object-fit: cover;
+}
 
 /* HEADER */
-
 .nav-link {
-    color: rgb(19, 19, 19);
-    font-size: 20px;
-}
-
-/* MAIN INDEX */
-
-.position {
-    margin-top: 112px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.bg-yellow {
-    background-color: #f4eb49;
-}
-
-.size {
-    width: 90%;
-    text-align: justify;
-}
-
-.dona {
-    width: 90%;
-}
-
-.marcador {
-    width: 90%;
-    object-fit: cover;
-}
-
-.position-2 {
-    margin-top: 150px;
-}
-
-/* MAIN PROYECTO */
-
-.p-project {
-    text-align: justify;
-}
-
-.tablet {
-    width: 90%;
-}
-
-.map {
-    width: 90%;
-    height: 900px;
-}
-
-.bg-sky-blue {
-    background-color: #419bcf;
-}
-
-.video {
-    width: 50%;
-    height: 300px;
-    align-items: center;
-    object-fit: cover;
-}
-
-/* MAIN PRODUCTO */
-
-.mockup_tablet {
-    width: 100%;
-    object-fit: cover;
-}
-
-.bg-red {
-    background-color: #e90204;
-    color: white;
-}
-
-.packaging {
-    width: 90%;
-    object-fit: cover;
-}
-
-.gifts {
-    width: 70%;
-    object-fit: cover;
+  color: rgb(19, 19, 19);
+  font-size: 20px;
 }
 
 /* FOOTER */
-
 .footer {
-    display: block;
-    font-size: 14px;
+  display: block;
+  font-size: 14px;
 }
 
 .footer li {
-    display: inline-block;
-    padding: 20px 0;
+  display: inline-block;
+  padding: 20px 0;
+}
+.footer li a {
+  text-decoration: none;
 }
 
 .footer-link {
-    color: rgb(19, 19, 19);
+  color: rgb(19, 19, 19);
+}
+
+/* MAIN - BANNER */
+.position {
+  margin-top: 112px;
+}
+
+/* MAIN INDEX */
+.bg-yellow {
+  background-color: #f4eb49;
+}
+.bg-yellow .size {
+  width: 90%;
+  text-align: justify;
+}
+.bg-yellow .dona {
+  width: 90%;
+}
+/* MAIN PROYECTO */
+.p-project {
+  text-align: justify;
+}
+
+.tablet {
+  width: 90%;
+}
+
+.map {
+  width: 90%;
+  height: 900px;
+}
+
+.bg-sky-blue {
+  background-color: #419bcf;
+}
+
+/* MAIN PRODUCTO */
+.p-project {
+  text-align: justify;
+}
+
+.bg-red {
+  background-color: #e90204;
+  color: white;
+}
+.position-2 {
+  margin-top: 150px;
+}
+
+.position-2 {
+  margin-top: 150px;
 }
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 800px) {
-    .map {
-        height: 300px;
-    }
-
-    .video {
-        width: 400px;
-    }
+  .map {
+    height: 300px;
+  }
+  .video {
+    width: 400px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

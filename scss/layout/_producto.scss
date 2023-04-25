@@ -1,0 +1,22 @@
+/* MAIN PRODUCTO */
+
+.p-project {
+    text-align: justify;
+}
+
+.mockup_tablet {
+   @extend .object;
+}
+
+.bg-red {
+    background-color: $bg-color3;
+    color: white;
+
+    .packaging {
+        @extend .object;
+    }
+}
+
+.gifts {
+    @extend .object;
+}

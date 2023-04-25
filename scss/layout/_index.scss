@@ -1,0 +1,18 @@
+/* MAIN INDEX */
+
+.bg-yellow {
+    background-color: $bg-color1;
+
+    .size {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .dona {
+        width: 90%;
+    }
+
+    .marcador {
+        @extend .object;
+    }
+}
