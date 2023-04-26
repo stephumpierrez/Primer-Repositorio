@@ -1,3 +1,4 @@
+/* VARIABLES DE COLORES */
 .object, .gifts, .bg-red .packaging, .mockup_tablet, .bg-yellow .marcador {
   width: 90%;
   object-fit: cover;
@@ -33,6 +34,21 @@
 }
 
 /* MAIN INDEX */
+.extension {
+  width: auto;
+  height: auto;
+}
+
+.libro {
+  width: auto;
+  height: auto;
+}
+
+.contacto {
+  width: auto;
+  height: auto;
+}
+
 .bg-yellow {
   background-color: #f4eb49;
 }
@@ -42,7 +58,12 @@
 }
 .bg-yellow .dona {
   width: 90%;
+  height: auto;
 }
+.bg-yellow .marcador {
+  height: auto;
+}
+
 /* MAIN PROYECTO */
 .p-project {
   text-align: justify;
@@ -70,12 +91,25 @@
   background-color: #e90204;
   color: white;
 }
-.position-2 {
+/* MAIN CONTACTO */
+.bg-darkblue {
+  background-color: #003166;
+  margin-top: 125px;
+}
+.bg-darkblue .position-2 {
   margin-top: 150px;
 }
 
-.position-2 {
+/* MAIN ABOUT */
+.bg-darkblue {
+  background-color: #003166;
+  margin-top: 125px;
+}
+.bg-darkblue .position-2 {
   margin-top: 150px;
+}
+.bg-darkblue .bg-grey {
+  background-color: #d7d7d7;
 }
 
 /* MEDIA QUERIES */
@@ -86,13 +120,6 @@
   .video {
     width: 400px;
   }
-}
-.icon {
-  transition: 1s;
-}
-.icon:hover {
-  transform: scale(1, 2);
-  transform: rotateZ("360deg");
 }
 
 /*# sourceMappingURL=style.css.map */
