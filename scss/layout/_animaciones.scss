@@ -1,7 +1,31 @@
-// .icon {
-//     transition: 1s;
-//     &:hover {
-//         transform: scale(1, 2);
-//         transform: rotateZ('360deg');
-//     }
-// }
+/* ANIMACIÓN PAGE PRODUCTO */
+
+.tablet_supertincho {
+    display: flex;
+    transition: 0.5s;
+
+    :hover {
+        transform: rotate(30deg);
+    }
+}
+
+.motricidad {
+    transition: 1s;
+    :hover {
+        transform: rotateX(20deg);
+    }
+}
+
+.concentracion {
+    transition: 1s;
+    :hover {
+        transform: rotateX(20deg);
+    }
+}
+
+.autoestima {
+    transition: 1s;
+    :hover {
+        transform: rotateX(20deg);
+    }
+}

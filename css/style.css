@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* VARIABLES DE COLORES */
 .object, .gifts, .bg-red .packaging, .mockup_tablet, .bg-yellow .marcador {
   width: 90%;
@@ -34,21 +35,6 @@
 }
 
 /* MAIN INDEX */
-.extension {
-  width: auto;
-  height: auto;
-}
-
-.libro {
-  width: auto;
-  height: auto;
-}
-
-.contacto {
-  width: auto;
-  height: auto;
-}
-
 .bg-yellow {
   background-color: #f4eb49;
 }
@@ -120,6 +106,35 @@
   .video {
     width: 400px;
   }
+}
+/* ANIMACIÓN PAGE PRODUCTO */
+.tablet_supertincho {
+  display: flex;
+  transition: 0.5s;
+}
+.tablet_supertincho :hover {
+  transform: rotate(30deg);
+}
+
+.motricidad {
+  transition: 1s;
+}
+.motricidad :hover {
+  transform: rotateX(20deg);
+}
+
+.concentracion {
+  transition: 1s;
+}
+.concentracion :hover {
+  transform: rotateX(20deg);
+}
+
+.autoestima {
+  transition: 1s;
+}
+.autoestima :hover {
+  transform: rotateX(20deg);
 }
 
 /*# sourceMappingURL=style.css.map */
